@@ -1,0 +1,74 @@
+{
+    "profiles": 
+[
+    {
+    "name": "Clinton Desouza",
+    "interests":[
+        "Music",
+        "Dance",
+        "Painting"
+    ],
+    "image_url": "https://cdn.pixabay.com/photo/2018/08/28/12/41/avatar-3637425_960_720.png",
+    "age":52
+},
+{
+    "name": "Suzi Fernandes",
+    "interests":[
+        "Nature",
+        "Makeup",
+        "Beauty",
+        "Yoga"
+    ],
+    "image_url": "https://cdn.pixabay.com/photo/2018/08/28/12/41/avatar-3637425_960_720.png",
+    "age":26
+},
+{
+    "name": "Robin Clinton",
+    "interests":[
+        "Love",
+        "Culture",
+        "Tech"
+    ],
+    "image_url": "https://cdn.pixabay.com/photo/2018/08/28/12/41/avatar-3637425_960_720.png",
+    "age":30
+},
+{
+    "name": "Rani Chouhan",
+    "interests":[
+        "Ethnic",
+        "Nature",
+        "Makeup",
+        "Dance"
+    ],
+    "image_url": "https://cdn.pixabay.com/photo/2018/08/28/12/41/avatar-3637425_960_720.png",
+    "age":28
+},
+{
+    "name": "Reena Mehra",
+    "interests":[
+        "Dance",
+        "Ethnic",
+        "Music",
+        "Clothing",
+        "Jwellery"
+    ],
+    "image_url": "https://cdn.pixabay.com/photo/2018/08/28/12/41/avatar-3637425_960_720.png",
+    "age":42
+}
+],
+"all_interests":[
+    "Music",
+    "Dance",
+    "Painting",
+    "Nature",
+    "Makeup",
+    "Beauty",
+    "Yoga",
+    "Love",
+    "Culture",
+    "Tech",
+    "Ethnic",
+    "Clothing",
+    "Jwellery"
+]
+}
