@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jumpin_assignment/home_page.dart';
+import 'package:jumpin_assignment/screens/home_screen.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({Key key}) : super(key: key);
@@ -11,7 +11,7 @@ class SplashScreen extends StatelessWidget {
       () => Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (ctx) => MyHomePage(),
+          builder: (ctx) => HomeScreen(),
         ),
       ),
     );

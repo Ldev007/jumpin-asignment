@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:jumpin_assignment/splash_screen.dart';
+import 'package:jumpin_assignment/screens/splash_screen.dart';
 
-import 'home_page.dart';
+import 'screens/home_screen.dart';
 
 void main() {
   runApp(MyApp());

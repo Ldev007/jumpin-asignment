@@ -2,19 +2,19 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:jumpin_assignment/person_model.dart';
-import 'package:jumpin_assignment/profile_frame.dart';
+import 'package:jumpin_assignment/models/person_model.dart';
+import 'package:jumpin_assignment/components/profile_frame.dart';
 
-import 'loading_widget.dart';
+import '../components/loading_widget.dart';
 
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key}) : super(key: key);
+class HomeScreen extends StatefulWidget {
+  HomeScreen({Key key}) : super(key: key);
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _HomeScreenState createState() => _HomeScreenState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _HomeScreenState extends State<HomeScreen> {
   double filterBoxHeight = 0;
   Icon selectedIcon = Icon(
     Icons.check_circle_outline_rounded,
