@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:jumpin_assignment/splash_screen.dart';
 
 import 'home_page.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
           iconTheme: IconThemeData(color: Colors.white),
         ),
       ),
-      home: MyHomePage(),
+      home: SplashScreen(),
     );
   }
 }

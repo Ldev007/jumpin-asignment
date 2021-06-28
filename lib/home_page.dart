@@ -35,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('People'),
+        title: Text('Profiles'),
         leading: IconButton(
           icon: Icon(Icons.filter_alt_rounded),
           onPressed: () {
@@ -182,7 +182,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   Expanded(
                     child: profiles.isNotEmpty
                         ? ListView.builder(
-                          
                             itemCount: profiles.length,
                             itemBuilder: (ctx, i) => Container(
                               decoration: BoxDecoration(
