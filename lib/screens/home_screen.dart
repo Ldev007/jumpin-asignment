@@ -50,28 +50,30 @@ class _HomeScreenState extends State<HomeScreen> {
         onPressed: () {
           ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(
-              backgroundColor: Colors.teal[300],
+              backgroundColor: Colors.teal[400],
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(15),
                   topRight: Radius.circular(15),
                 ),
               ),
-              content: Row(
-                children: [
-                  Icon(
-                    Icons.info_outline_rounded,
-                    color: Colors.white,
-                  ),
-                  SizedBox(width: MediaQuery.of(context).size.width * 0.05),
-                  Text(
-                    'Tap on each profile to see their interests',
-                    style: TextStyle(
-                      fontSize: Theme.of(context).textTheme.subtitle1.fontSize,
+              content: FittedBox(
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.info_outline_rounded,
                       color: Colors.white,
                     ),
-                  ),
-                ],
+                    SizedBox(width: MediaQuery.of(context).size.width * 0.05),
+                    Text(
+                      'Tap on each profile to see their interests.\nFilter button is at the top-left corner of your screen.',
+                      style: TextStyle(
+                        fontSize: Theme.of(context).textTheme.subtitle1.fontSize,
+                        color: Colors.white,
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
           );
